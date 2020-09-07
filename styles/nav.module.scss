@@ -1,0 +1,26 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    // width: 100%;
+}
+
+.nav_item {
+    flex: 1;
+    text-align: center;
+    border-right: solid 2px #eee;
+    display: inline-block;
+    &:last-child {
+        border-right: 0;
+    }
+}
+
+.nav_item_link {
+    padding: 1rem 0;
+    display: inline-block;
+    width: 100%;
+}
